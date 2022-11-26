@@ -1,0 +1,340 @@
+@font-face {
+    font-family: vazir;
+    src: url('vazir.ttf');
+}
+body{
+    font-family: vazir;
+    margin: 0;
+}
+/*header*/
+
+header{
+    position: relative;
+    height: 100vh;
+    background-image: url('images/slide.jpg');
+}
+header nav{
+    width: 85%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+header nav .first{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+header nav .first li{
+    margin-left: 40px;
+}
+header nav .first li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav .second{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50px;
+    right: 0;
+    padding: 0;
+    margin: 10px 0;
+    z-index: 1;
+    list-style-type: none;
+    background-color: rgba(155, 155, 155, 0.473);
+    overflow: hidden;
+    transition: all .6s;
+}
+header nav .second.active{
+    height: 290px;
+}
+header nav .second li a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+header nav .second li a:hover{
+    background-color: rgba(105, 105, 105, 0.856);
+}
+header nav .navbar-icons{
+    display: flex;
+    align-items: center;
+}
+header nav .navbar-icons a{
+    margin-left: 20px;
+    color: black;
+}
+header nav .navbar-icons img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+header .header-texts{
+    position: relative;
+}
+header .header-texts :nth-child(1){
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.171);
+    margin: 0;
+}
+header .header-texts :nth-child(2){
+    position: absolute;
+    top: 180px;
+    left: 20%;
+    font-size: 50px;
+    color: rgba(39, 39, 39, 0.884);
+    margin: 0;
+}
+header .header-texts :nth-child(3){
+    position: absolute;
+    top: 220px;
+    left: 10%;
+    font-size: 80px;
+    color: rgb(59, 58, 58);
+    margin: 0;
+}
+/*hanging-lamp*/
+
+#hanging-lamp .top{
+    border-top: 5px solid rgba(206, 204, 204, 0.486);
+    display: flex;
+}
+#hanging-lamp .top .first{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+#hanging-lamp .top .first .text{
+    position: relative;
+    padding-right: 50px;
+}
+#hanging-lamp .top .first .text h1{
+    color: rgb(224, 120, 0);
+}
+#hanging-lamp .top .first .text button{
+    position: absolute;
+    left: 20px;
+    color: white;
+    background-color: rgb(224, 120, 0);
+    padding: 6px 15px;
+    border: none;
+    font-size: 14px;
+    font-family: vazir;
+    cursor: pointer;
+}
+#hanging-lamp .top .first img{
+    width: 300px;
+    height: 250px;
+    padding-left: 50px;
+}
+#hanging-lamp .top .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(224, 120, 0);
+}
+#hanging-lamp .top .second .text{
+    color: white;
+}
+#hanging-lamp .top .second .text h2{
+    margin: 0;
+    font-weight: normal;
+}
+#hanging-lamp .top .second .text h1{
+    margin-top: 5px;
+    font-weight: normal;
+}
+#hanging-lamp .bottom{
+    display: flex;
+    height: 480px;
+}
+#hanging-lamp .bottom .third{
+    flex: 2;
+}
+#hanging-lamp .bottom .third img{
+    width: 100%;
+    height: 100%;
+}
+#hanging-lamp .bottom .forth{
+    flex: 1;
+    background-color: rgb(247, 247, 247);
+}
+#hanging-lamp .bottom .forth .first-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    margin: 10px auto;
+}
+#hanging-lamp .bottom .forth .second-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    margin: 10px auto;
+}
+#hanging-lamp .bottom .forth .item {
+    width: 50%;
+    text-align: center;
+}
+#hanging-lamp .bottom .forth .item img{
+    width: 130px;
+    height: 150px;
+}
+#hanging-lamp .bottom .forth .item h4,h5{
+    margin: 0;
+    text-align: center;
+}
+#hanging-lamp .bottom .forth .item h5 span{
+    color: green;
+}
+
+/*sofa*/
+
+#sofa .top{
+    display: flex;
+}
+#sofa .top .first{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+}
+#sofa .top .first .text h2,h1{
+    color: white;
+    font-weight: normal;
+}
+#sofa .top .first .text h2{
+    margin: 0;
+    font-size: 25px;
+}
+#sofa .top .first .text h1{
+    margin-top: 5px;
+    font-size: 28px;
+}
+#sofa .top .second{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#sofa .top .second .text{
+    position: relative;
+    padding-right: 10px;
+}
+#sofa .top .second .text h1{
+    color: rgb(224, 120, 0);
+    font-weight: bold;
+}
+#sofa .top .second .text button{
+    position: absolute;
+    left: 60px;
+    color: white;
+    background-color: rgb(224, 120, 0);
+    padding: 6px 15px;
+    border: none;
+    font-size: 14px;
+    font-family: vazir;
+    cursor: pointer;
+}
+#sofa .top .second img{
+    width: 300px;
+    height: 100%;
+}
+#sofa .bottom{
+    display: flex;
+    height: 500px;
+}
+#sofa .bottom .third{
+    flex: 1;
+}
+#sofa .bottom .third .container{
+    width: 320px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    margin: auto;
+}
+#sofa .bottom .third .item img{
+    width: 100%;
+    height: 150px;
+}
+#sofa .bottom .third .item h4{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#sofa .bottom .third .item h5 span{
+    color: green;
+}
+#sofa .bottom .forth{
+    flex: 2;
+}
+#sofa .bottom .forth img{
+    width: 100%;
+    height: 100%;
+}
+
+/*counter*/
+
+#counter{
+    height: 300px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(52, 155, 202);
+    text-align: center;
+}
+#counter div i{
+    font-size: 30px;
+}
+#counter div h1{
+    color: black;
+}
+
+/*footer*/
+
+footer{
+    height: 300px;
+    background-color: #171c22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .content{
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+footer .content .icons{
+    margin-bottom: 40px;
+}
+footer .content .icons i{
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+footer .content p{
+    font-size: 14px;
+}

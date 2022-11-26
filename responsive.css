@@ -1,0 +1,296 @@
+@media screen and (max-width : 1200px){
+    header{
+        background-size: 100% 100%;
+    }
+    header .header-texts :nth-child(1){
+        font-size: 70px;
+        left: 30%;
+    }
+    header .header-texts :nth-child(2){
+        top: 190px;
+        font-size: 40px;
+        left: 15%;
+    }
+    header .header-texts :nth-child(3){
+        top: 240px;
+        font-size: 60px;
+        left: 5%;
+    }
+    #hanging-lamp .top .first .text{
+        padding-right: 20px;
+    }
+    #hanging-lamp .top .first img{
+        padding-left: 20px;
+    }
+    #hanging-lamp .bottom .forth .first-row{
+        width: 85%;
+    }
+    #hanging-lamp .bottom .forth .second-row{
+        width: 85%;
+    }
+    #hanging-lamp .bottom .forth .item img{
+        width: 110px;
+        height: 150px;
+    }
+}
+@media screen and (max-width : 992px){
+    header nav{
+        width: 90%;
+    }
+    header nav .first{
+        display: none;
+    }
+    header nav button{
+        display: inline-block;
+    }
+    header .header-texts :nth-child(1){
+        font-size: 70px;
+        left: 30%;
+    }
+    header .header-texts :nth-child(2){
+        font-size: 40px;
+        left: 15%;
+    }
+    header .header-texts :nth-child(3){
+        font-size: 60px;
+        left: 5%;
+    }
+    #hanging-lamp .top .first .text h1{
+        font-size: 18px;
+    }
+    #hanging-lamp .top .first img{
+        width: 250px;
+        height: 200px;
+    }
+    #hanging-lamp .top .first p{
+        font-size: 14px;
+    }
+    #hanging-lamp .top .first .text button{
+        left: 40px;
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+    #hanging-lamp .top .second .text h2,h1{
+        font-size: 20px;
+    }
+    #hanging-lamp .bottom{
+        height: 400px;
+    }
+    #hanging-lamp .bottom .forth .item img{
+        width: 90px;
+        height: 130px;
+    }
+    #sofa .top .first .text h2{
+        font-size: 20px;
+    }
+    #sofa .top .first .text h1{
+        font-size: 20px;
+    }
+    #sofa .top .second img{
+        width: 250px;
+        height: 80%;
+        padding: 10px;
+    }
+    #sofa .bottom .third .container{
+        width: 250px;
+        grid-template-columns: repeat(2,120px);
+        grid-template-rows: 200px;
+        column-gap: 5px;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width : 768px){
+    header{
+        height: 80vh;
+        background-size: 90% 90%;
+        background-position: bottom;
+    }
+    header .header-texts :nth-child(1){
+        top: 120px;
+        font-size: 50px;
+        left: 30%;
+    }
+    header .header-texts :nth-child(2){
+        font-size: 30px;
+        left: 15%;
+    }
+    header .header-texts :nth-child(3){
+        font-size: 40px;
+        left: 5%;
+    }
+    #hanging-lamp .top{
+        flex-direction: column;
+    }
+    #hanging-lamp .top .first .text h1{
+        font-size: 24px;
+    }
+    #hanging-lamp .top .first img{
+        width: 40%;
+    }
+    #hanging-lamp .top .second{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #hanging-lamp .bottom{
+        flex-direction: column;
+        height: auto;
+    }
+    #hanging-lamp .bottom .third{
+        background-color: rgb(247, 247, 247);
+    }
+    #hanging-lamp .bottom .forth{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    #sofa .top{
+        flex-direction: column;
+    }
+    #sofa .bottom{
+        flex-direction: column;
+    }
+    #sofa .top .first{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #sofa .top .second img{
+        display: none;
+    }
+    #sofa .top .first .text h1{
+        font-size: 20px;
+    }
+    #sofa .top .first .text h2{
+        font-size: 20px;
+    }
+    #sofa .top .second .text{
+        height: 170px;
+        padding: 0 20px;
+    }
+    #sofa .bottom{
+        height: auto;
+    }
+    #sofa .bottom .third .container{
+        width: 540px;
+        grid-template-columns: repeat(4,130px);
+        grid-template-rows: 200px;
+        margin: 10px auto;
+    }
+    #sofa .bottom .forth{
+        background-color: rgb(52, 155, 202);
+    }
+    footer{
+        height: auto;
+    }
+    footer .content{
+        max-width: 450px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width : 576px){
+    header{
+        background: none;
+    }
+    header .header-texts :nth-child(1){
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .header-texts :nth-child(2){
+        width: 200px;
+        top: 190px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        text-align: center;
+    }
+    header .header-texts :nth-child(3){
+        width: 200px;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    #hanging-lamp .top .first{
+        flex-direction: column;
+    }
+    #hanging-lamp .top .first .text{
+        margin-bottom: 50px;
+    }
+    #hanging-lamp .top .first img{
+        width: 60%;
+        height: 220px;
+        padding: 0;
+        margin: auto;
+    }
+    #hanging-lamp .bottom .forth{
+        flex-direction: column;
+    }
+    #hanging-lamp .bottom .forth .first-row{
+        width: 70%;
+    }
+    #hanging-lamp .bottom .forth .second-row{
+        width: 70%;
+    }
+    #hanging-lamp .bottom .forth .item img{
+        width: 120px;
+        height: 150px;
+    }
+    #sofa .top .second{
+        margin-bottom: 20px;
+    }
+    #sofa .bottom .third .container{
+        width: 350px;
+        grid-template-columns: repeat(2,160px);
+        grid-template-rows: 220px 220px;
+        gap: 30px;
+    }
+    #sofa .bottom .forth img{
+        display: none;
+    }
+    #counter div i{
+        font-size: 25px;
+    }
+    #counter div h1{
+        font-size: 18px;
+    }
+    footer .content p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width : 400px){
+    #hanging-lamp .top .first img{
+        width: 80%;
+        height: 200px;
+    }
+    #hanging-lamp .bottom .forth{
+        flex-direction: column;
+    }
+    #hanging-lamp .bottom .forth .first-row{
+        width: 80%;
+    }
+    #hanging-lamp .bottom .forth .second-row{
+        width: 80%;
+    }
+    #hanging-lamp .bottom .forth .item img{
+        width: 100px;
+        height: 150px;
+    }
+    #sofa .bottom .third .container{
+        width: 160px;
+        grid-template-columns: repeat(1,160px);
+        grid-template-rows: repeat(4,200px);
+    }
+    #sofa .bottom .third .container .item img{
+        height: 140px;
+    }
+    #counter{
+        height: 200px;
+        padding: 0 5px;
+    }
+    #counter div i{
+        font-size: 20px;
+    }
+    #counter div h1{
+        font-size: 16px;
+    }
+}
